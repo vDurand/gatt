@@ -87,7 +87,7 @@ func generateAttributes(ss []*Service, base uint16) *attrRange {
 		h, a = generateServiceAttributes(s, h, i == last)
 		aa = append(aa, a...)
 	}
-	dumpAttributes(aa)
+	//dumpAttributes(aa)
 	return &attrRange{aa: aa, base: base}
 }
 
