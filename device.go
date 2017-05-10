@@ -83,6 +83,8 @@ type Device interface {
 
 	// Option sets the options specified.
 	Option(o ...Option) error
+	
+	Stop() error
 }
 
 // deviceHandler is the handlers(callbacks) of the Device.
