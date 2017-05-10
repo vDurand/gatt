@@ -4,7 +4,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/paypal/gatt/xpc"
+	"github.com/vDurand/gatt/xpc"
 )
 
 type peripheral struct {
