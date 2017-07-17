@@ -1,6 +1,6 @@
 package option
 
-import "github.com/vDurand/gatt"
+import "github.com/Frontware/gatt"
 
 var DefaultClientOptions = []gatt.Option{
 	gatt.MacDeviceRole(gatt.CentralManager),
