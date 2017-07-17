@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/vDurand/gatt"
-	"github.com/vDurand/gatt/examples/option"
+	"github.com/Frontware/gatt"
+	"github.com/Frontware/gatt/examples/option"
 )
 
 func onStateChanged(d gatt.Device, s gatt.State) {
