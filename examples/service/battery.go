@@ -1,6 +1,6 @@
 package service
 
-import "github.com/vDurand/gatt"
+import "github.com/Frontware/gatt"
 
 func NewBatteryService() *gatt.Service {
 	lv := byte(100)
