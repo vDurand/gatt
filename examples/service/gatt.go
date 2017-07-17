@@ -3,7 +3,7 @@ package service
 import (
 	"log"
 
-	"github.com/vDurand/gatt"
+	"github.com/Frontware/gatt"
 )
 
 var (
