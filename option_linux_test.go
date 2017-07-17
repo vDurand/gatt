@@ -3,7 +3,7 @@ package gatt
 import (
 	"bytes"
 
-	"github.com/vDurand/gatt/linux/cmd"
+	"github.com/Frontware/gatt/linux/cmd"
 )
 
 func ExampleLnxDeviceID() {
